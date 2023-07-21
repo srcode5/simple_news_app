@@ -1,16 +1,14 @@
 # simple_news_app
 
-A new Flutter project.
+Displays news feed based on an articles collection in Firestore with three fields: headline, thumbnail, and url. When a headline is selected, the app opens the corresponding article's url in the browser.
 
-## Getting Started
+# Running the Application
 
-This project is a starting point for a Flutter application.
+Before running, complete the following:
+1. flutter pub get
+2. firebase login
+(before step #3, if the flutterfire CLI hasn't been installed, install it with `dart pub global activate flutterfire_cli`)
+3. flutterfire configure
+4. flutter run
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Best Choice: Run it on Android Studio. The AndroidManifest.xml file is configured to enable use of all packages, and I've verified it runs fine on there. Also best for visual appeal.

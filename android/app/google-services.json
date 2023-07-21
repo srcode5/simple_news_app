@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "312697665843",
+    "project_id": "simple-news-app-85541",
+    "storage_bucket": "simple-news-app-85541.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312697665843:android:a1f3500adfcf53ee142646",
+        "android_client_info": {
+          "package_name": "com.example.simple_news_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312697665843-ivtm0qm5ekb4hfkh4mkiaf8h1nso43jq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVRw6j5OD6DbWTCogpEOahOSxzXeXgkKw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312697665843-ivtm0qm5ekb4hfkh4mkiaf8h1nso43jq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
